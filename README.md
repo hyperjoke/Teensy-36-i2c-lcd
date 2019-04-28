@@ -43,4 +43,4 @@ void loop(){
 
 # Credits
 
-Based on (fdebrabander's library)[https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library]
+Based on [fdebrabander's library](https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library)
