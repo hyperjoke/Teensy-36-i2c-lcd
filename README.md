@@ -1,9 +1,9 @@
-# Basic info
+# LCD_I2C_Teensy36 library
 This is library for I2C display. It wokrs with Teensy 3.6.
 
 # Installation
-Create a new folder called "LiquidCrystal_I2C" under the folder named "libraries" in your Arduino sketchbook folder.
-Create the folder "libraries" in case it does not exist yet. Place all the files in the "LiquidCrystal_I2C" folder.
+Create a new folder called "LCD_I2C_Teensy36" under the folder named "libraries" in your Arduino sketchbook folder.
+Create the folder "libraries" in case it does not exist yet. Place all the files in the "LCD_I2C_Teensy36" folder.
 
 # Usage
 To use the library in your own sketch, select it from *Sketch > Import Library*.
@@ -11,9 +11,9 @@ To use the library in your own sketch, select it from *Sketch > Import Library*.
 ## Basic example
 
 ```c++
-#include <LiquidCrystal_I2C.h>
+#include <LCD_I2C_Teensy36.h>
 
-LiquidCrystal_I2C lcd(0x27, 16, 2); //Set LCD to 16chars and 2 lines
+LCD_I2C_Teensy36 lcd(0x27, 16, 2); //Set LCD to 16chars and 2 lines
 
 void setup() {
 
